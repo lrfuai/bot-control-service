@@ -1,7 +1,7 @@
-const hardware = {
+const board = {
   name: 'lrf-prototipe-01',
   endpoint: '',
-  state: {
+  connections: {
     actions: {
       endpoint: 'http://localhost:8090',
       type: 'http'

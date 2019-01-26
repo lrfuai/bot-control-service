@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'ultra-sonic',
+  name: 'ultrasonic',
   type: 'sensor',
   can: [
     'read'

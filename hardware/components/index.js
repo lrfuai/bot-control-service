@@ -1,7 +1,11 @@
 const components = [
+  // Actuators
   require('./actuators/server-headless'),
-  require('./sensors/ultra-sonic'),
+  
+  // Sensors
+  require('./sensors/ultrasonic'),
   require('./sensors/bumper'),
+  
 ];
 
 module.exports = {
