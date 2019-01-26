@@ -1,0 +1,30 @@
+{
+  "name": "bot-control-service",
+  "version": "1.0.0",
+  "description": "Bot Control Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrfuai/bot-control-service.git"
+  },
+  "keywords": [
+    "Bot",
+    "Control",
+    "Service"
+  ],
+  "author": "Alejandro Cena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrfuai/bot-control-service/issues"
+  },
+  "homepage": "https://github.com/lrfuai/bot-control-service#readme",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "nconf": "^0.10.0",
+    "restify": "^7.6.0",
+    "winston": "^3.1.0"
+  }
+}
